@@ -1,0 +1,2 @@
+*/15 * * * * /home/ubuntu/myenv/bin/python3 /home/ubuntu/predict.py >> /home/ubuntu/cron.log 2>&1
+* * * * * /home/ubuntu/myenv/bin/python3 /home/ubuntu/plot_generator.py >> /home/ubuntu/cron.log 2>&1
