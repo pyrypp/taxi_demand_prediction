@@ -45,3 +45,5 @@ Another script rendered an image of a **plot** visualizing the prediction. This 
 A **website** built was with Streamlit and hosted on Streamlit community cloud. It fetched the plot images from S3 and displayed them for the users.
 
 ![diagram_image](/images/diagram.png)
+
+_Image: Amazon, Streamlit_
