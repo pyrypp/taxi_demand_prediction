@@ -34,7 +34,7 @@ Data on the arriving flights was also collected every day through Finavia's own 
 
 Data on taxi rides and arriving flights was collected for six months. All data was stored in a PostgreSQL **database** on AWS RDS. Weather data from Ilmatieteen laitos was also incorporated in the training of the model and the predictions.
 
-The next step was to build a prediction **model** to predict the number of taxi rides for the next 24 hours. After trying several methods, such as a seasonal naive model, SARIMA and a random forest model, a simple neural network model was chosen as it proved the most accurate.
+The next step was to build and train a prediction **model** to predict the number of taxi rides for the next 24 hours. After trying several methods, such as a seasonal naive model, SARIMA and a random forest model, a simple neural network model was chosen as it proved the most accurate.
 
 The model had two hidden layers (512 + 256 units) and outputted a single value. The 24-hour prediction was made with a resolution of 15 minutes. A total of 97 models were trained each predicting one step further into the future.
 
