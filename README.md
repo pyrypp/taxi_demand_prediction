@@ -47,3 +47,45 @@ A **website** built was with Streamlit and hosted on Streamlit community cloud. 
 ![diagram_image](/images/diagram.png)
 
 _Image: Amazon, Streamlit_
+
+## What did I learn?
+- Deploying an end-to-end system on the cloud
+  - Learning to use EC2, RDS and S3
+  - Learning Linux and Cron
+  - Creating workarounds for memory limitations (+learning about memory leaks and garbage collection)
+  - Designing a simple system architecture
+- Learning about databases and PostgreSQL
+  - Datatypes
+  - Connecting in Python (Psycopg2, Sqlalchemy)
+- Real time data collection through APIs and web scraping
+  - Libraries (Requests, BeautifulSoup)
+  - XML data and namespaces
+  - Regular expressions for data scraping (Re)
+- Data analysis on time series data
+  - Group bys
+  - Seasonal decomposition
+- Classical time series prediction models
+  - Naive
+  - Seasonal naive
+  - Fast Fourier Transform
+  - ARMA
+  - ARIMA
+  - SARIMA
+- Basics of random forests
+- Basic use of the Savitzky–Golay filter
+  - Basically smoothing data by fitting low degree polynomials without losing the original shape
+- Time series prediction with a neural network
+  - Tensorflow basics (input and output layers, dense layers, relu activation, different optimizers)
+  - Utilizing Tensorboard to optimize model architecture and tune hyperparameters (number of layers and cells, learning rate, batch size)
+  - Creating the dataset using a sliding window technique
+  - Feature engineering (for example lag features and rolling statistics)
+  - Min-max scaling
+  - Utilizing vectorized operations to prepare data efficiently (for example pandas.DataFrame.shift)
+- Data visualization
+  - Plotly
+  - Automatic peak detection and coloring
+  - Design choices, for example focusing more on precise time than precise values by showing only vertical grid lines
+- Dividing code into functions and seperate files
+- Working with real data and real users
+  - Fixing issues and bugs on the go
+  - Making the system robust to changes in data sources (for example by utilizing previous predictions if unable to create new ones)
