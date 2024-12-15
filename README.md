@@ -46,7 +46,7 @@ A **website** built was with Streamlit and hosted on Streamlit community cloud. 
 
 ![diagram_image](/images/diagram.png)
 
-_Image: Amazon, Streamlit_
+_Icons: Amazon, Streamlit_
 
 ## What did I learn?
 - Deploying an end-to-end system on the cloud
